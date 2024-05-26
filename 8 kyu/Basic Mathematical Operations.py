@@ -13,7 +13,7 @@ def basic_op(operator, value1, value2):
         if value2 == 0:
             return "the divisor must not be zero"
         else:
-            
+            return value1 / value2
 
 assert basic_op('+', 4, 7) == 11
 assert basic_op('-', 15, 18) == -3
